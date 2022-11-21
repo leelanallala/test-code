@@ -1,0 +1,31 @@
+Problem statement:
+To design a web crawler that will search the required contents from web and download them.
+
+Web crawler:
+A web crawler is a software program that browses the web in a systematic way. A web crawler collects all the related or matched documents from the web.
+
+Goal:
+The crawler should be able download content of type text and images.
+
+Procedure or methodology:
+1. Searching algorithms like breath first search and depth first search are useed for crawling purpose.
+2.The basic flow is:
+	1. It takes a website url from the web which was not visited by the crawler earlier.
+	2.Checks for required content in the website.
+	3. Downloads the document if search matches the content.
+	4. Puts this website url in the visited list.
+	5. Takes another url which id not there in visited list and continues the process.
+
+Components required for designing web crawler:
+1.URL frontier
+2.HTTP fetcher
+3. Extractor
+4. Duplicate eliminator
+5. Datastore
+
+
+
+
+
+
+
